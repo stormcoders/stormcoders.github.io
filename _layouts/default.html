@@ -1,46 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
-    </head>
-    <body>
-
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
-
-    </body>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:300' rel='stylesheet' type='text/css'>
+    <link href="/css/stormcoders.css" rel="stylesheet" media="screen">
+    <link href="/css/normalize.css" rel="stylesheet" media="screen">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/syntax.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <h1><a href="/index.html">StormCoders</a></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <ul class='menu-nav'>
+          <li><a href="https://github.com/stormcoders"><i class="icon-github"></i></a></li>
+          <li><a href="https://twitter.com/stormcoders"><i class="icon-twitter"></i></a></li>
+          <li><a href="mailto:stormcoders@gmail.com"><i class="icon-envelope"></i></a></li>
+        </ul>
+      </div>
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+  </body>
 </html>

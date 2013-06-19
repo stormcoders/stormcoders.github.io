@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2013-06-18 21:12:39
+author: Ígor Bonadio
 categories: jekyll update
 ---
 
