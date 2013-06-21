@@ -3,7 +3,8 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2013-06-18 21:12:39
 author: Ígor Bonadio
-categories: jekyll update
+email:  igor@stormcoders.com.br
+categories: site
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

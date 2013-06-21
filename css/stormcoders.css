@@ -113,12 +113,12 @@ a:hover {
   margin-bottom: 0px;
 }
 
-.post-header a {
+.post-header h1 a {
   color: #333333;
   text-decoration: none
 }
 
-.post-header a:hover {
+.post-header h1 a:hover {
   color: #333333;
 }
 
