@@ -7,7 +7,12 @@ title: StormCoders
   <div class="post">
     <div class='post-header'>
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <small><a href="mailto:{{ post.email }}">{{ post.author }}</a> | {{ post.date | date_to_string }}</small>
+      <small>
+        {% for author in post.authors %}
+          <a href="mailto:{{ author.email }}">{{ author.name }}</a> |
+        {% endfor %}
+        {{ post.date | date_to_string }}
+      </small>
     </div>
     <p>{{ post.excerpt }}</p>
     <a href="{{ post.url }}" class="pull-right btn">Continue lendo</a>
