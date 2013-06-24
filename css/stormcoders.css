@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Titillium Web', sans-serif;
   font-size: 17px;
@@ -23,23 +27,13 @@ a:hover {
 
 .container {
   margin: 0 auto;
-  width: 980px;
-}
-
-.menu {
-  position: fixed;
-  float: left;
-  width: 249px;
-  padding-right: 20px;
-  padding-top: 30px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .content {
-  float: left;
-  padding-left: 40px;
-  margin-left: 269px;
-  border-left: solid 1px #CCCCCC;
-  width: 670px;
+  border-top: solid 1px #CCCCCC;
 }
 
 .content h1 {
@@ -132,4 +126,30 @@ a:hover {
 
 .post {
   padding-bottom: 50px;
+}
+
+@media screen and (min-width: 980px) {
+  .container {
+    margin: 0 auto;
+    width: 980px;
+  }
+
+  .menu {
+    position: fixed;
+    float: left;
+    width: 270px;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+
+  .content {
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 270px;
+    border-top: none;
+    border-left: solid 1px #CCCCCC;
+    width: 710px;
+  }
 }
