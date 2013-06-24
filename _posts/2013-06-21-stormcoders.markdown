@@ -18,13 +18,13 @@ Nos conhecemos na faculdade onde estudamos muito juntos. A verdade é que, mesmo
 
 Sendo assim, nada melhor do que criar uma empresa. Não qualquer uma, mas sim a que queremos trabalhar.
 
-Este blog surge com a pretenção de narrar o nascimento desta empresa.
+Este blog surge com a pretensão de narrar o nascimento desta empresa.
 
 No meio do processo iremos mostrar o que estamos estudando e em quais projetos estamos trabalhando. Também faremos uso do [github][github-stormcoders] para armazenar algumas soluções.
 
 Espero que vocês ainda ouçam muito sobre nós!
 
-Sejam bem vindos! E nos acompanhem nesta jornada!
+Sejam bem vindos! Nos acompanhem nesta jornada!
 
 [github-stormcoders]: https://github.com/stormcoders
 
