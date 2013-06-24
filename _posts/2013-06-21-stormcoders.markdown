@@ -4,9 +4,9 @@ title:  "StormCoders"
 date:   2013-06-21 21:12:39
 authors:
   - name: Marco Lopes
-    email: marco@stormcoders.com.br
+    anchor: marco
   - name: Ígor Bonadio
-    email: igor@stormcoders.com.br
+    anchor: igor
 categories: stormcoders
 ---
 

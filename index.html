@@ -9,7 +9,7 @@ title: StormCoders
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
       <small>
         {% for author in post.authors %}
-          <a href="mailto:{{ author.email }}">{{ author.name }}</a> |
+          <a href="/about.html#{{ author.anchor }}">{{ author.name }}</a> |
         {% endfor %}
         {{ post.date | date_to_string }}
       </small>
