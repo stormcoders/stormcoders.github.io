@@ -52,6 +52,10 @@ a:hover {
   font-weight: bold;
 }
 
+.menu-nav ul {
+  padding-left: 0px;
+}
+
 .menu-nav {
   font-size: 30px;
 }
@@ -110,6 +114,10 @@ a:hover {
 }
 
 .post-header h1 {
+  margin-bottom: 0px;
+}
+
+.post-header h2 {
   margin-bottom: 0px;
 }
 
