@@ -6,7 +6,7 @@ layout: default
   <h1>{{ page.title }}</h1>
   <small>
     {% for author in page.authors %}
-      <a href="mailto:{{ author.email }}">{{ author.name }}</a> |
+      <a href="/about.html#:{{ author.anchor }}">{{ author.name }}</a> |
     {% endfor %}
     {{ page.date | date_to_string }}
   </small>
