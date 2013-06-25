@@ -1,6 +1,7 @@
 ---
 name: Marco Antonio Lopes
 email: marco@stormcoders.com
+gravatar: marco.bcc@gmail.com
 anchor: marco
 ---
 

@@ -128,6 +128,19 @@ a:hover {
   padding-bottom: 50px;
 }
 
+.user img {
+  float: left;
+  margin-right: 10px;
+}
+
+.user h2 {
+  padding-left: 120px;
+}
+
+.user p {
+  padding-left: 120px;
+}
+
 @media screen and (min-width: 980px) {
   .container {
     margin: 0 auto;

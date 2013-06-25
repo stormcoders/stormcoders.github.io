@@ -7,12 +7,12 @@ title: StormCoders
 
 {% for author in page.authors %}
   <a name="{{ author.anchor }}"></a>
-  <div class="post">
-    <div class='post-header'>
-      <h2>{{ author.name }}</h2>
-    </div>
-    
+  <div class="user">
+    <img src="http://gravatar.com/avatar/{{ author.gravatar | md5 }}?s=100" class="img-polaroid">
+    <h2>{{ author.name }}</h2>
+    <p><i class="icon-envelope-alt"></i> {{ author.email }}</p>
+  </div>
+  <div>
     {{ author.content }}
-
   </div>
 {% endfor %}

@@ -1,6 +1,7 @@
 ---
 name: Ígor Bonadio
 email: igor@stormcoders.com
+gravatar: igorbonadio@gmail.com
 anchor: igor
 ---
 
