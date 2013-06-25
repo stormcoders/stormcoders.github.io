@@ -1,0 +1,18 @@
+---
+layout: default
+title: StormCoders
+---
+
+<h1>Quem somos?</h1>
+
+{% for author in page.authors %}
+  <a name="{{ author.anchor }}"></a>
+  <div class="post">
+    <div class='post-header'>
+      <h2>{{ author.name }}</h2>
+    </div>
+    
+    {{ author.content }}
+
+  </div>
+{% endfor %}
