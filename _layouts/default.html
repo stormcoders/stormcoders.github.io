@@ -21,6 +21,10 @@
   </script>
   <!-- Fim Google Analytics -->
 
+  {% for javascript in page.javascripts %}
+    <script type="text/javascript" src="{{ javascript }}"></script>
+  {% endfor %}
+
 </head>
 <body>
   <div class="container">
