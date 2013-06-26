@@ -178,3 +178,7 @@ a:hover {
     font-size: 50px;
   }
 }
+
+#disqus_thread {
+  margin-top: 50px;
+}
