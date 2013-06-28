@@ -90,7 +90,7 @@ $$idioma^\* = argmax_{idioma} p(X \mid idioma)p(idioma)$$
 
 Essa é a nossa regra de decisão bayesiana.
 
-Neste caso particular, podemos assumir que p(idioma) tem o mesmo valor para todos os idiomas, e assim
+Neste caso particular, podemos assumir que $p(idioma)$ tem o mesmo valor para todos os idiomas, e assim
 
 $$idioma^\* = argmax_{idioma} p(X \mid idioma)$$
 
@@ -105,12 +105,12 @@ Sempre que tento aprender uma linguagem de programação nova, gosto de criar al
 Com Likely você pode definir um classificador bayesiano como:
 
 {% highlight scala %}
-val classifier = BayesianClassifier(
-  "portuguese" -> DiscreteIIDModel.train(trainSetPt),
-  "english" -> DiscreteIIDModel.train(trainSetEn)
-)
+  val classifier = BayesianClassifier(
+    "portuguese" -> DiscreteIIDModel.train(trainSetPt),
+    "english" -> DiscreteIIDModel.train(trainSetEn)
+  )
 
-val lang = classifier.classify(text)
+  val lang = classifier.classify(text)
 {% endhighlight %}
 
 Para um exemplo completo de um classificador de idiomas veja o arquivo fonte [LanguageClassifier.scala][langclass].
