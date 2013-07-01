@@ -31,11 +31,11 @@ $$X = (x_1, x_2, ..., x_N)$$
 
 onde $x_i$ é uma letra do alfabeto.
 
-Podemos calcular a probabilidade de uma letra aparecer em um dado texto através de uma simples contagem.
+Podemos calcular a probabilidade de uma letra aparecer em um dado texto através de uma simples contagem:
 
 $$p(c) = \frac{count_X(c)}{N}$$
 
-Onde $count_X(c)$ é o número de vezes que a letra $c$ aparece no texto $X$.
+onde $count_X(c)$ é o número de vezes que a letra $c$ aparece no texto $X$.
 
 Abaixo temos estimativas das distribuições para as línguas inglesa, $p(c \mid idioma=en)$ em laranja, e portuguesa, $p(c \mid idioma=pt)$ em roxo, calculadas a partir de dois artigos da [Wikipedia][wikipedia] ([1][en], [2][pt]):
 
@@ -76,7 +76,7 @@ Abaixo temos estimativas das distribuições para as línguas inglesa, $p(c \mid
 
 Podemos utilizar essa distribuição como base para construirmos nosso modelo probabilístico.
 
-Um modo bastante simplificado de tentar calcular a probabilidade de um texto $X$ estar escrito em um dado idioma é assumir que cada letra é [independente e igualmente distribuída][iid]:
+Um modo bastante simplificado para tentar calcular a probabilidade de um texto $X$ estar escrito em um dado idioma é assumir que cada letra é [independente e igualmente distribuída][iid]:
 
 $$p(X \mid idioma) = p(x_1 \mid idioma)p(x_2 \mid idioma)...p(x_N \mid idioma)$$
 
@@ -100,7 +100,7 @@ Até agora apenas apresentei os fundamentos de um classificador bayesiano. A par
 
 Mas aqui apresentarei uma alternativa diferente.
 
-Sempre que tento aprender uma linguagem de programação nova, gosto de criar algum projeto para de fato sentir como é programar utilizando aquele linguagem. No caso de Scala, iniciei o desenvolvimento de um framework probabilístico chamado Likely. O objetivo era (e ainda é) implementar algoritmos apara análise de dados de modo que utilizando uma [DSL][dsl] fosse fácil especificar modelos probabilísticos. Esse projeto se chama [Likely][likely], é open source e está disponível no nosso [Github][github].
+Sempre que tento aprender uma linguagem de programação nova, gosto de criar algum projeto para de fato sentir como é programar utilizando aquela linguagem. No caso de Scala, iniciei o desenvolvimento de um framework probabilístico chamado [Likely][likely]. O objetivo era (e ainda é) implementar algoritmos apara análise de dados de modo que utilizando uma [DSL][dsl] fosse fácil especificar modelos probabilísticos. Esse projeto é open source e está disponível no nosso [Github][github].
 
 Com Likely você pode definir um classificador bayesiano como:
 
@@ -123,7 +123,7 @@ Primeiramente clone o projeto:
   git clone git@github.com:stormcoders/likely.git
 {% endhighlight %}
 
-e execute o sbt
+execute o sbt
 
 {% highlight bash %}
   cd likely
