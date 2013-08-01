@@ -8,6 +8,7 @@ anchor: marco
 Um nerd taekwondista! 
  
 Bacharel em Ciência da Computação pela [Faculdade de Ciências][fc] da Universidade Estadual Paulista. Atualmente cursando pós graduação em Análise Exploratória de Dados e Big Data na [FIA][fia].  
+
 Trabalha atualmente com o desenvolvimento e manutenção do sistema de faturamento de uma grande geradora de energia. Além disso trabalha na implantação e gestão de projetos de Business Intelligence.  
  
 Programa em VB6, ASP, C#, Java, PHP, Ruby... e até Assembly (só se for muito necessário). 
