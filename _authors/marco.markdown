@@ -5,23 +5,15 @@ gravatar: marco.bcc@gmail.com
 anchor: marco
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Um nerd taekwondista! 
+ 
+Bacharel em Ciência da Computação pela [Faculdade de Ciências][fc] da Universidade Estadual Paulista. Atualmente cursando pós graduação em Análise Exploratória de Dados e Big Data na [FIA][fia].  
+Trabalha atualmente com o desenvolvimento e manutenção do sistema de faturamento de uma grande geradora de energia. Além disso trabalha na implantação e gestão de projetos de Business Intelligence.  
+ 
+Programa em VB6, ASP, C#, Java, PHP, Ruby... e até Assembly (só se for muito necessário). 
+ 
+É faixa azul em Taekwondo, ainda não zerou Battletoads & Double Dragon, está eternamente esperando a nova edição de alguma HQ ou o próximo episódio de algum seriado. Um dia vai ter uma biblioteca particular e todos os jogos já inventados que valham a pena jogar. É casado e pai de 0 filhos.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[fc]:http://www.fc.unesp.br/
+[fia]:http://www.fia.com.br/Paginas/Home.aspx
