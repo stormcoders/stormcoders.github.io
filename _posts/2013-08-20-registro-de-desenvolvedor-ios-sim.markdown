@@ -14,7 +14,7 @@ Para quem não sabe, os desenvolvedores brasileiros eram obrigados a comprovar s
 
 Agora o processo está bem mais simples. É só preencher um formulário, pagar e aguardar o email de confirmação.
 
-Para maiores informaões visite o [site oficial][ios-dev].
+Para maiores informações visite o [site oficial][ios-dev].
 
 [ios-dev]: https://developer.apple.com/programs/ios/
 
