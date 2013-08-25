@@ -74,6 +74,10 @@ a:hover {
   text-decoration: none;
 }
 
+.menu h3 a {
+  text-decoration: none;
+}
+
 .pull-right {
   float: right;
 }
