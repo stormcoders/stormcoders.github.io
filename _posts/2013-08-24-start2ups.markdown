@@ -18,6 +18,6 @@ Estamos lançando o Start²ups! Uma desenvolvedora de soluções web e mobile (i
 
 Para o lançamento preparamos uma promoção! Sortearemos um plano de desenvolvimento totalmente gratuito e outros dois com 50% de desconto. Para participar basta se inscrever no nosso site: [start2ups.com][start2ups].
 
-<!-- break -->
-
 [start2ups]: http://start2ups.com
+
+<!-- break -->
